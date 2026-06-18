@@ -24,7 +24,7 @@ $$R_{t+1} = \alpha + \beta_1 SP_t + \beta_2 R_t + \epsilon_{t+1}$$
 Where:
 $R_{t+1}$: Next-week excess log-return of the Arabica futures contract.
 $SP_t$: Net position of Money Managers scaled by total open interest.
-$R_t$: Lagged excess return to account for momentum effects.To handle potential volatility clustering and overlapping errors, the model was estimated using Ordinary Least Squares (OLS) with Newey-West HAC standard errors (4-week lag structure).
+$R_t$: Lagged excess return to account for momentum effects. To handle potential volatility clustering and overlapping errors, the model was estimated using Ordinary Least Squares (OLS) with Newey-West HAC standard errors (4-week lag structure).
 
 Visual Analysis
 The dual-axis chart below illustrates the historical evolution of Arabica prices against the structural net-long positioning of Money Managers, capturing extreme fluctuations during the 2021 Brazilian frost and subsequent droughts.
